@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f9586edb-8e94-4d6a-8585-be926281f096" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+    <list default="true" id="1928eaae-6034-4b9c-8a19-1dbe6df01cc5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Feature.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Hero.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Pricing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Testimoni.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/misc/ButtonOutline..js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/misc/ButtonOutline..js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/misc/ButtonPrimary.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/misc/ButtonPrimary.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landingpage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/slick.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/slick.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/tailwind.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/tailwind.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,73 +32,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="dd3ec026-2049-495a-80f7-f89ee9c51555" />
-        <option name="url" value="git@github.com:sifatfaysal/pluto-web.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/pages/index.tsx" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29L8SOHUQRf2daS8mOVLZjEaYSS" />
+  <component name="ProjectId" id="29cUdpXxWlef9bkKU8xYtQhiV8K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;S:/PLUTO/Vercel/pages/_app.tsx&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;S:\\PLUTO\\Vercel\\node_modules\\typescript\\lib&quot;,
-    &quot;two.files.diff.last.used.file&quot;: &quot;S:/PLUTO/Vercel/pages/_app.tsx&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "S:/PLUTO/next-landing-vpn",
+    "nodejs_package_manager_path": "yarn",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="S:\PLUTO\Vercel\src\components\Header" />
-      <recent name="S:\PLUTO\Vercel\src" />
+      <recent name="S:\PLUTO\next-landing-vpn\src\components" />
+      <recent name="S:\PLUTO\next-landing-vpn\src\pages\hero" />
+      <recent name="S:\PLUTO\next-landing-vpn\src\pages" />
+      <recent name="S:\PLUTO\next-landing-vpn\src\pages\home" />
+      <recent name="S:\PLUTO\next-landing-vpn\src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="start" type="js.build_tools.npm" nameIsGenerated="true">
-      <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="start" />
-      <node-interpreter value="project" />
-      <envs />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f9586edb-8e94-4d6a-8585-be926281f096" name="Changes" comment="" />
-      <created>1652881009174</created>
+      <changelist id="1928eaae-6034-4b9c-8a19-1dbe6df01cc5" name="Changes" comment="" />
+      <created>1653411961369</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1652881009174</updated>
-      <workItem from="1652881017800" duration="30000" />
-      <workItem from="1652898745545" duration="58000" />
-      <workItem from="1652947519115" duration="168000" />
-      <workItem from="1652947736448" duration="193000" />
-      <workItem from="1652947976074" duration="74000" />
-      <workItem from="1653054085537" duration="542000" />
-      <workItem from="1653058758636" duration="26000" />
-      <workItem from="1653058805529" duration="198000" />
-      <workItem from="1653059035259" duration="116000" />
-      <workItem from="1653066778933" duration="900000" />
-      <workItem from="1653068017597" duration="3366000" />
-      <workItem from="1653080997378" duration="1847000" />
+      <updated>1653411961369</updated>
+      <workItem from="1653411965168" duration="1771000" />
     </task>
     <servers />
   </component>
