@@ -16,8 +16,8 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
           <meta
-            name="description"
-            content="Landingpage VPN LaslesVPN Best VPN For Privacy, Country and Cheapest"
+            name="plutolien"
+            content="innovative power of generation."
           />
         </Head>
         <body>
