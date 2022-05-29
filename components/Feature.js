@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import ButtonPrimary from "./misc/ButtonPrimary";
 
 const Feature = () => {
   return (
@@ -45,7 +44,7 @@ const Feature = () => {
         <div className="flex w-full justify-end">
           <div className="h-full w-full p-4">
             <Image
-              src="/assets/Illustration2.png"
+              src="/assets/Illustration3.png"
               alt="VPN Illustrasi"
               layout="responsive"
               quality={100}
