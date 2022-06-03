@@ -2,18 +2,19 @@ import Head from "next/head";
 import React from 'react'
 import Layout from '../../components/Layout/Layout'
 
-function about() {
+function projects() {
   return (
     <div>
       <Head>
-        <title>About</title>
+        <title>Projects</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Layout>
-        About
+        Projects
       </Layout>
     </div>
   )
 }
 
-export default about
+export default projects

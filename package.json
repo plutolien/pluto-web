@@ -9,7 +9,11 @@
     "export": "next build && next export"
   },
   "dependencies": {
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
     "@fullhuman/postcss-purgecss": "^3.0.0",
+    "@mui/icons-material": "^5.8.2",
+    "@mui/material": "^5.8.2",
     "autoprefixer": "^10.0.4",
     "framer-motion": "^2.9.5",
     "next": "10.0.3",

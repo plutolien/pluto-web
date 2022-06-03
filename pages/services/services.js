@@ -2,18 +2,19 @@ import Head from "next/head";
 import React from 'react'
 import Layout from '../../components/Layout/Layout'
 
-function about() {
+function services() {
   return (
     <div>
       <Head>
-        <title>About</title>
+        <title>Services</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Layout>
-        About
+        Services
       </Layout>
     </div>
   )
 }
 
-export default about
+export default services

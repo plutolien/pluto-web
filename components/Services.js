@@ -41,7 +41,7 @@ const Services = () => {
         </div>
         <div className="flex flex-col w-full my-16" id="testimoni">
           <h3 className="text-2xl sm:text-3xl lg:text-4xl font-medium text-black-600 leading-normal w-9/12 sm: lg:w-4/12 mx-auto">
-          When Industry Experts Speak{" "}
+          We love our clients{" "}
           </h3>
           <p className="leading-normal mx-auto mb-2 mt-4 w-10/12 sm:w-7/12 lg:w-6/12">
           It’s a matter of pride to see renowned industry experts put their trust in us. Their love is our fuel to do more. 
@@ -53,9 +53,9 @@ const Services = () => {
             <div className="absolute rounded-xl  py-8 sm:py-14 px-6 sm:px-12 lg:px-16 w-full flex flex-col sm:flex-row justify-between items-center z-10 bg-white-500">
               <div className="flex flex-col text-left w-10/12 sm:w-7/12 lg:w-5/12 mb-6 sm:mb-0">
                 <h5 className="text-black-600 text-xl sm:text-2xl lg:text-3xl leading-relaxed font-medium">
-                  Subscribe Now for <br /> Get Special Features!
+                you will love our  <br /> solutions!
                 </h5>
-                <p>Let's subscribe with us and find the fun.</p>
+                <p>Take a look at our highly premium software.</p>
               </div>
               <ButtonPrimary>Get Started</ButtonPrimary>
             </div>

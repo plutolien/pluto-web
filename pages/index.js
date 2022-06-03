@@ -3,7 +3,6 @@ import Feature from "../components/Feature";
 import Services from "../components/Services";
 import Hero from "../components/Hero";
 import Layout from "../components/Layout/Layout";
-import Service from "../components/Service";
 import Counter from "../components/Counter";
 
 export default function Home() {
@@ -15,9 +14,8 @@ export default function Home() {
       </Head>
       <Layout>
         <Hero />
-        <Feature />
-        <Service/>
         <Counter/>
+        <Feature />
         <Services />
       </Layout>
     </>
