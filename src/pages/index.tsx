@@ -7,7 +7,7 @@ import About from "../pages/About/about";
 import Service from "../pages/Service/service";
 import Projects from "../pages/projects/projects";
 import Brand from "../pages/Brand/brand";
-import Testimonial from "../pages/Testimonial/testimonial";
+// import Testimonial from "../pages/Testimonial/testimonial";
 
 
 const Home: NextPage = () => {
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
         <Service/>
         <Projects/>
         <Brand/>
-        <Testimonial/>
+        {/* <Testimonial/> */}
       </Layout> 
       {/* Layout End      */}
     </div>
