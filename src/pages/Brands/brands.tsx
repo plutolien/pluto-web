@@ -1,11 +1,11 @@
-import React from 'react'
 import Image from 'next/image'
+import React from 'react'
 
 // image
 import B1 from "../../../public/assets/Icon/amazon.png"
+import B4 from "../../../public/assets/Icon/discord.png"
 import B2 from "../../../public/assets/Icon/reddit.png"
 import B3 from "../../../public/assets/Icon/spotify.png"
-import B4 from "../../../public/assets/Icon/discord.png"
 
 function brands() {
 return (

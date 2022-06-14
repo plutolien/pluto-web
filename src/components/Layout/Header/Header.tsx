@@ -1,5 +1,3 @@
-/* This example requires Tailwind CSS v2.0+ */
-import { Fragment } from 'react'
 import { Popover, Transition } from '@headlessui/react'
 import {
   BookmarkAltIcon,
@@ -9,16 +7,16 @@ import {
   MenuIcon,
   PhoneIcon,
   PlayIcon,
-  RefreshIcon,
   ShieldCheckIcon,
   SupportIcon,
   ViewGridIcon,
   XIcon,
 } from '@heroicons/react/outline'
 import { ChevronDownIcon } from '@heroicons/react/solid'
-
 import Image from 'next/image'
-import Logo from "../../../public//assets/Logo.jpg"
+import { Fragment } from 'react'
+
+import Logo from "../../../../public/assets/Logo.jpg"
 
 
 const about = [

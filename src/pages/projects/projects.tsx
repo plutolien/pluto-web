@@ -1,6 +1,6 @@
-import React from 'react'
 import Image from 'next/image'
-import P1 from "../../../public/assets/placeholder.png"
+import React from 'react'
+
 import imageOne from "../../../public/assets/pluto-admin.jpg"
 import imageTwo from "../../../public/assets/pluto-chat.jpg"
 import imageThree from "../../../public/assets/pluto-pharma.jpg"
