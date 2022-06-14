@@ -3,13 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "start": "npm dev",
-    "dev": "concurrently \"npm:dev:*\"",
-    "dev:next": "next dev",
-    "dev:tailwind": "npx tailwindcss -i src/styles/style.css -o src/styles/build.css --minify --watch",
-    "build": "npm build:tailwind && npm build:next",
-    "build:next": "next build",
-    "build:tailwind": "npx tailwindcss -i src/styles/style.css -o src/styles/build.css --minify",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
@@ -28,8 +24,6 @@
     "@types/node": "17.0.36",
     "@types/react": "18.0.9",
     "concurrently": "^7.2.1",
-    "eslint": "8.16.0",
-    "eslint-config-next": "12.1.6",
     "typescript": "4.7.2"
   }
 }

@@ -86,6 +86,7 @@ export default function Example() {
             <a href="#">
               <Image 
                   src={Logo}
+                  alt ="Logo"
                   width="54"
                   height="54"
                 />
@@ -254,6 +255,7 @@ export default function Example() {
                 <div>
                 <Image 
                   src={Logo}
+                  alt ="Logo"
                   width="54"
                   height="54"
                 />
