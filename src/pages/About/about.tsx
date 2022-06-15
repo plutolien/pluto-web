@@ -1,21 +1,21 @@
 import Image from 'next/image'
 import React from 'react'
 
-import Seo from '../../components/Seo';
 // Image
 import aboutImage from "../../../public/assets/about.jpg"
 
 function about() {
 return (
 
-    <><Seo templateTitle='About' /><section className="max-w-7xl mx-auto py-16 bg-white">
+    <>
+    <section className="max-w-7xl mx-auto py-16 bg-white">
         <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
             <div className="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
 
                 {/* Abiut Image Start */}
                 <div className="md:6/12 lg:w-5/12">
                     <Image src={aboutImage} alt="Picture of the author" width="350px" height="300px" layout="responsive"
-                        loading="lazy" />
+                        loading="lazy"/>
                 </div>
                 {/* About Image End */}
 
@@ -36,7 +36,8 @@ return (
                 </div>
             </div>
         </div>
-    </section></>
+    </section>
+    </>
         )
 }
 

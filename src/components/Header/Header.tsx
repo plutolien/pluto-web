@@ -16,7 +16,7 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import { Fragment } from 'react'
 
-import Logo from "../../../../public/assets/Logo.jpg"
+import Logo from "../../../public/assets/Logo.jpg"
 
 
 const about = [
