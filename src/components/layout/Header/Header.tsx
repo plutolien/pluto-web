@@ -16,29 +16,25 @@ import { ChevronDownIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import { Fragment } from 'react'
 
-import Logo from "../../../public/assets/Logo.jpg"
+import Logo from "../../../../public/assets/Logo.jpg"
 
 
 const about = [
   {
     name: 'About PLuto',
-    // description: 'Get a better understanding of where your traffic is coming from.',
-    href: '#',
+    href: '/about',
     icon: ChartBarIcon,
   },
   {
     name: 'Team',
-    // description: 'Speak directly to your customers in a more meaningful way.',
-    href: '#',
+    href: '/team',
     icon: CursorClickIcon,
   },
   {   
     name: 'Service', 
-    // description: "Your customers' data will be safe and secure.", 
     href: '#', icon: ShieldCheckIcon },
   {
     name: 'Career',
-    // description: "Connect with third-party tools that you're already using.",
     href: '#',
     icon: ViewGridIcon,
   },
@@ -50,23 +46,21 @@ const callsToAction = [
 const resources = [
   {
     name: 'Help Center',
-    description: 'Get all of your questions answered in our forums or contact support.',
     href: '#',
     icon: SupportIcon,
   },
   {
     name: 'Guides',
-    description: 'Learn how to maximize our platform to get the most out of it.',
     href: '#',
     icon: BookmarkAltIcon,
   },
   {
     name: 'Events',
-    description: 'See what meet-ups and other events we might be planning near you.',
     href: '#',
     icon: CalendarIcon,
   },
-  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
+  { name: 'Security', 
+    href: '#', icon: ShieldCheckIcon },
 ]
 
 
@@ -79,7 +73,6 @@ export default function Example() {
     <Popover className="relative bg-white z-10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center border-b-2 border-gray-100 py-6 md:justify-start md:space-x-10">
-          {/* <div className="flex justify-start lg:w-0 lg:flex-1"> */}
 		  <div className="flex justify-start">
             <a href="#">
               <Image 
@@ -91,7 +84,7 @@ export default function Example() {
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
-            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+            <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
             </Popover.Button>
@@ -103,7 +96,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none '
                     )}
                   >
                     <span>About</span>
@@ -125,7 +118,7 @@ export default function Example() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute  -ml-4 mt-3 transform px-2 w-screen max-w-md sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
+                    <Popover.Panel className="absolute  -ml-4 mt-3 transform px-2 w-screen max-w-[20rem] sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                           {about.map((item) => (
@@ -137,7 +130,6 @@ export default function Example() {
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                {/* <p className="mt-1 text-sm text-gray-500">{item.description}</p> */}
                               </div>
                             </a>
                           ))}
@@ -180,7 +172,7 @@ export default function Example() {
                   <Popover.Button
                     className={classNames(
                       open ? 'text-gray-900' : 'text-gray-500',
-                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500'
+                      'group bg-white rounded-md inline-flex items-center text-base font-medium hover:text-gray-900 focus:outline-none '
                     )}
                   >
                     <span>Contact</span>
@@ -202,7 +194,7 @@ export default function Example() {
                     leaveFrom="opacity-100 translate-y-0"
                     leaveTo="opacity-0 translate-y-1"
                   >
-                    <Popover.Panel className="absolute  left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
+                    <Popover.Panel className="absolute  left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-[20rem] sm:px-0">
                       <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
                         <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
                           {resources.map((item) => (
@@ -214,7 +206,6 @@ export default function Example() {
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                               <div className="ml-4">
                                 <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                <p className="mt-1 text-sm text-gray-500">{item.description}</p>
                               </div>
                             </a>
                           ))}
@@ -259,7 +250,7 @@ export default function Example() {
                 />
                 </div>
                 <div className="-mr-2">
-                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+                  <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none ">
                     <span className="sr-only">Close menu</span>
                     <XIcon className="h-6 w-6" aria-hidden="true" />
                   </Popover.Button>

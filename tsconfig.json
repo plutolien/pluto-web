@@ -20,7 +20,7 @@
     },
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layout/Layout.jsx", "src/components/Header/Header.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "src/components/layout/Layout.jsx", "src/components/layout/Header/Header.tsx"],
   "exclude": ["node_modules"],
   "moduleResolution": ["node_modules", ".next", "node"]
 }

@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Home from '../pages/Home/Home'; 
+import Home from '../pages/Home'; 
 
 export default function HomePage() {
   return (

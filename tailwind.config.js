@@ -49,6 +49,7 @@ module.exports = {
       animation: {
         flicker: 'flicker 3s linear infinite',
         shimmer: 'shimmer 1.3s linear infinite',
+        spin: 'spin 3s linear infinite',
       },
     },
   },
