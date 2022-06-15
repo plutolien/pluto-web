@@ -1,8 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 
-import Seo from '@/components/Seo';
-
+import Seo from '../../components/Seo';
 // Image
 import aboutImage from "../../../public/assets/about.jpg"
 
