@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "release": "standard-version",
-    "push-release": "git push --follow-tags origin main",
-    "postbuild": "next-sitemap --config next-sitemap.config.js"
+    "push-release": "git push --follow-tags origin main"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.4",
