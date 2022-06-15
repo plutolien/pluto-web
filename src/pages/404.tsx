@@ -8,7 +8,7 @@ export default function NotFoundPage() {
   return (
     <Layout>
       <Seo templateTitle='Not Found' />
-      404  
+      404 Not Found
     </Layout>
   );
 }
