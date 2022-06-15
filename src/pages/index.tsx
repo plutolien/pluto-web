@@ -4,7 +4,7 @@ import Layout from '../components/layout/Layout';
 import About from '../pages/About/about';
 import Brands from '../pages/Brands/brands';
 import Hero from '../pages/Hero/hero';
-import Project from '../pages/Projects/projects';
+import Portfolio from '../pages/portfolio/portfolio';
 import Service from '../pages/Service/service';
 
 export default function HomePage() {
@@ -13,7 +13,7 @@ export default function HomePage() {
       <Hero/>
       <About/>
       <Service/>
-      <Project/>
+      <Portfolio/>
       <Brands/>
     </Layout>
   );

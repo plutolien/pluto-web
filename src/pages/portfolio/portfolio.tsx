@@ -5,8 +5,7 @@ import imageOne from "../../../public/assets/pluto-admin.jpg"
 import imageTwo from "../../../public/assets/pluto-chat.jpg"
 import imageThree from "../../../public/assets/pluto-pharma.jpg"
 
-
-function projects() {
+function portfolio() {
   return (
     <div>
         <div className="max-w-7xl mx-auto flex  items-center justify-center p-10 bg-white">
@@ -53,4 +52,4 @@ function projects() {
   )
 }
 
-export default projects
+export default portfolio
