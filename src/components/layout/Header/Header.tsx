@@ -12,6 +12,7 @@ import {
   ViewGridIcon,
   XIcon,
 } from '@heroicons/react/outline'
+
 import { ChevronDownIcon } from '@heroicons/react/solid'
 import Image from 'next/image'
 import { Fragment } from 'react'
@@ -21,7 +22,7 @@ import Logo from "../../../../public/assets/Logo.jpg"
 
 const about = [
   {
-    name: 'About PLuto',
+    name: 'About',
     href: '/about',
     icon: ChartBarIcon,
   },
