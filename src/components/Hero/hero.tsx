@@ -37,7 +37,7 @@ export default function Hero() {
         </div>
       </div>
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 sm:hidden lg:block">
-             <Image className='hover:animate-spin'
+             <Image className='hover:animate-[spin_10s_linear_infinite]'
                   src={heroImage}
                     alt="hero-image"
               />
