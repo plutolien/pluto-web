@@ -1,8 +1,15 @@
 import React from 'react'
+import Layout from '../components/layout/Layout';
+import Link from 'next/link'
 
 function about() {
   return (
-    <div>about</div>
+    <Layout>
+      <Link href="/">
+        about
+      </Link>
+    </Layout>
+
   )
 }
 

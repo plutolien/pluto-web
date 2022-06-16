@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 // Image
 import aboutImage from "../../../public/assets/about.jpg"
@@ -27,10 +28,12 @@ return (
                     {/* About Content End */}
 
                     {/* Button Start */}
-                    <a href="#" className="py-[25px] flex justify-between items-center group-hover:text-[#47ACF7]">
-                        <span
-                            className="text-base font-medium rounded-md text-white bg-[#0B132A] hover:bg-[#122040]-[#122040] md:py-4 md:text-lg md:px-10">Explore</span>
-                    </a>
+
+                    <div className="py-[25px] flex justify-between items-center">
+                    <Link href={'/about'}>
+                        <div className="text-base font-medium rounded-md text-white bg-[#0B132A] hover:bg-[#122040]-[#122040] md:py-4 md:text-lg md:px-10 cursor-pointer">Get Stared</div>
+                    </Link>
+                    </div>
                     {/* Button End */}
 
                 </div>
