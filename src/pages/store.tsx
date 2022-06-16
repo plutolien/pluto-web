@@ -2,15 +2,15 @@ import React from 'react'
 import Layout from '../components/layout/Layout';
 import Link from 'next/link'
 
-function team() {
+function store() {
   return (
     <Layout>
       <Link href="/">
-        team
+        store
       </Link>
     </Layout>
 
   )
 }
 
-export default team
+export default store
