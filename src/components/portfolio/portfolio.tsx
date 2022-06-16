@@ -4,10 +4,18 @@ import React from "react";
 import imageOne from "../../../public/assets/pluto-admin.jpg";
 import imageTwo from "../../../public/assets/pluto-chat.jpg";
 import imageThree from "../../../public/assets/pluto-pharma.jpg";
+import CommonTitle from "@/components/Common/Title/common_title";
 
 function portfolio() {
   return (
     <div>
+      <CommonTitle
+        header={"Explore Our Works"}
+        description={
+          "We are proud to work with truly innovative clients and the products we truly believe in. Here are just a few of the projects we’ve had the privilege to work with."
+        }
+      />
+
       <div className="max-w-7xl mx-auto flex  items-center justify-center p-10 bg-white">
         <div className="container grid max-w-screen-xl gap-8 lg:grid-cols-2 lg:grid-rows-2">
           <div className="row-span-2 flex flex-col rounded-md border border-slate-200">
